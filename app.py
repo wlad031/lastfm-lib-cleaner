@@ -15,9 +15,6 @@ for (var i = 0; i < x.length; i++) {
 """
 
 
-def pages_input():
-    return
-
 if __name__ == '__main__':
     username = raw_input('Last.fm login: ')
     password = getpass('Password: ', stream=sys.stdout)
